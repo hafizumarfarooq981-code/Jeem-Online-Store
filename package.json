@@ -1,0 +1,12 @@
+{
+  "name": "jeem-online-store",
+  "version": "1.0.0",
+  "description": "JEEM Online Store (ج) — Islamic E-Commerce Platform, Mobile App & Admin Panel",
+  "scripts": {
+    "build": "node build-all.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}

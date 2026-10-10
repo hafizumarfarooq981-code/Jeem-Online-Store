@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api?__subpath=$1" },
+    { "source": "/api", "destination": "/api" },
+    { "source": "/((?!assets/|uploads/|api|logo|manifest\\.json|sw\\.js|favicon\\.svg|icons\\.svg).*)", "destination": "/index.html" }
+  ]
+}

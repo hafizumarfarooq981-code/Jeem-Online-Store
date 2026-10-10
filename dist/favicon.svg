@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E4D30"/>
+      <stop offset="100%" stop-color="#072617"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E5AB"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#AA820A"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Shield/Rounded Box -->
+  <rect x="4" y="4" width="92" height="92" rx="24" fill="url(#emeraldGrad)" stroke="url(#goldGrad)" stroke-width="3.5"/>
+  <rect x="10" y="10" width="80" height="80" rx="18" fill="none" stroke="url(#goldGrad)" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="3,3"/>
+  <!-- Urdu Letter Jeem (ج) -->
+  <text x="51" y="66" font-family="'Noto Nastaliq Urdu', 'Amiri', serif" font-size="56" font-weight="bold" fill="url(#goldGrad)" text-anchor="middle" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.3))">ج</text>
+</svg>
